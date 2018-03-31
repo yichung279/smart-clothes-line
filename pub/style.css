@@ -1,0 +1,53 @@
+html{
+  overflow:hidden;
+  font-family: Microsoft JhengHei;
+}
+body{
+  overflow:hidden;
+}
+#cloNum, #state{
+  text-align:center;
+  position: relative;
+}
+#state{
+  background-color: #fff;
+  left: 25%;
+  top: 6em;
+  height: 16rem;
+  width: 16rem;
+}
+#dec{
+  position: absolute;
+  background-color: #224ecf;
+  height: 1rem;
+  width: 10rem;
+  left: 50%;
+  top: 5em;
+  
+}
+#img{
+  position: relative;
+  left: 50%;
+  margin-left: -20em;
+  top: -15em;
+  width: 50em;
+  height:30em;
+  z-index: -1;
+  background: url('https://t-ec.bstatic.com/images/hotel/max1024x768/552/55267118.jpg') no-repeat center center;
+  background-size:50rem 30rem;
+}
+.fixed-bottom{
+  background-color: #325999;
+  text-align:center;
+  height: 5rem;
+}
+#state > h1{
+  position: relative;
+  top: 0.5em;
+}
+#state > p{
+  position: relative;
+  top: 0.4em;
+  font-size: 100px;
+
+}
