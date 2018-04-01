@@ -41,13 +41,8 @@ body{
   text-align:center;
   height: 5rem;
 }
-#state > h1{
-  position: relative;
-  top: 0.5em;
-}
 #state > p{
   position: relative;
-  top: 0.4em;
-  font-size: 100px;
-
+  top: 1.7em;
+  font-size: 50px;
 }
